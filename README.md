@@ -27,6 +27,7 @@
   sudo wget -c https://github.com/zaproxy/zaproxy/releases/download/v2.9.0/ZAP_2.9.0_Linux.tar.gz
   tar -xvf *.gz
   ```
+  - Create a new pipeline job with a groovy script in the above Jenkinsfile
 
 
 
