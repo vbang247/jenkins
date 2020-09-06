@@ -16,8 +16,9 @@
 * Add an init script to download OWASP-ZAP on slave:
   - Now add the AMI configuration to the Cloud created above.
   - Here we select AMI Amazon Linux AMI 2.0.20200603 x86_64 ECS HVM GP2 which comes with a built in docker installation from AWS market place.
-  - Enter the ami id of the AMI: ami-0c20a67db6e1c7258
-  - Add the appropriate security group
+  - Enter the ami id of the AMI: ami-0c20a67db6e1c7258 
+  - Add the appropriate security group 
+  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins_2.png?raw=true)
   - Add an init script that will download OWASP-ZAP on our slave and will be used to run a scan. 
   ```bash
   #!/bin/bash
