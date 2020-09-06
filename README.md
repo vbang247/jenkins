@@ -11,7 +11,6 @@
   - Login to your Jenkins controller through Jenkins URL. Go to Jenkins -> Manage Jenkins -> Manage Nodes and CLouds
   - Select Add a new cloud -> Amazon EC2
   - Configure the AWS credentials and private key. Test the connection
-
 * Add an init script to download OWASP-ZAP on slave:
 ```bash
 #!/bin/bash
