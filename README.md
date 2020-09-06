@@ -28,7 +28,7 @@
   tar -xvf *.gz
   ```
 * Create a new pipeline job with a groovy script in the above Jenkinsfile
-  - Once done the pipeline job is configured, run the pipeline
+  - Once the pipeline job is configured, run the pipeline
   ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins_3.png?raw=true)
  
   
