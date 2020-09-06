@@ -11,7 +11,7 @@
   - Select Add a new cloud -> Amazon EC2
   - Enter name and region
   - Configure the AWS credentials(Access key ID and sSecret key) and private key. Test the connection
-  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins.png?raw=true)
+  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins.png)
   
 * Add an init script to download OWASP-ZAP on slave:
   - Now add the AMI configuration to the Cloud created above.
