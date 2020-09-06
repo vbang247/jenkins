@@ -50,10 +50,7 @@ pipeline {
 
   success {
       echo "Pipeline currentResult: ${currentBuild.currentResult}"
-      //sh "cp *.xml $WORKSPACE"
       archiveArtifacts artifacts: 'report.xml', fingerprint: true
-    //  junit 'report.xml'
-   // publish html
    publishHTML(target: [
     allowMissing: false,
     alwaysLinkToLastBuild: false,
