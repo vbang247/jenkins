@@ -9,7 +9,7 @@
 * Create Cloud Configuration on Jenkins Controller:
   - Login to your Jenkins controller through Jenkins URL. Go to Jenkins -> Manage Jenkins -> Manage Nodes and CLouds
   - Select Add a new cloud -> Amazon EC2
-  - Enter name and region
+  - Enter name as 'jenkins-floating-slave' and region as per your geographical location
   - Configure the AWS credentials(Access key ID and sSecret key) and private key. Test the connection
   ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins.png?raw=true)
   
