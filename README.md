@@ -6,11 +6,13 @@
 2. ZAP:
 [Zed Attack Proxy (ZAP)](https://www.zaproxy.org/getting-started/) is a free, open-source penetration testing tool being maintained under the umbrella of the Open Web Application Security Project (OWASP). ZAP is designed specifically for testing web applications and is both flexible and extensible.
 
-3. Pre-requisites:
+3. Pre-requisites: 
 * Create Cloud Configuration on Jenkins Controller:
   - Login to your Jenkins controller through Jenkins URL. Go to Jenkins -> Manage Jenkins -> Manage Nodes and CLouds
   - Select Add a new cloud -> Amazon EC2
   - Configure the AWS credentials and private key. Test the connection
+  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins.png?raw=true)
+  
 * Add an init script to download OWASP-ZAP on slave:
 ```bash
 #!/bin/bash
