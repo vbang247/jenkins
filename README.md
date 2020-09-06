@@ -27,7 +27,11 @@
   sudo wget -c https://github.com/zaproxy/zaproxy/releases/download/v2.9.0/ZAP_2.9.0_Linux.tar.gz
   tar -xvf *.gz
   ```
-  - Create a new pipeline job with a groovy script in the above Jenkinsfile
+* Create a new pipeline job with a groovy script in the above Jenkinsfile
+  - Once done the pipeline job is configured, run the pipeline
+  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins_3.png?raw=true)
+ 
+  
 
 
 
