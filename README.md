@@ -11,7 +11,7 @@
   - Select Add a new cloud -> Amazon EC2
   - Enter name as 'jenkins-floating-slave' and region as per your geographical location
   - Configure the AWS credentials(Access key ID and sSecret key) and private key. Test the connection
-  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins.png?raw=true)
+  ![AWS_Cloud_Connection](assets/aws_jenkins.png)
   
 * Add an init script to download OWASP-ZAP on slave:
   - Now add the AMI configuration to the Cloud created above.
@@ -19,7 +19,7 @@
   - Enter the ami id of the AMI: ami-0c20a67db6e1c7258.
   - Security group is optional
   - Add an init script that will download OWASP-ZAP on our slave and will be used to run a scan.
-  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins_2.png?raw=true)
+  ![AWS_Cloud_Connection](assets/aws_jenkins_2.png)
   ```bash
   #!/bin/bash
   yum update -y
@@ -29,7 +29,7 @@
   ```
 * Create a new pipeline job with a groovy script in the above Jenkinsfile
   - Once the pipeline job is configured, run the pipeline
-  ![AWS_Cloud_Connection](https://github.com/vbang247/images/master/aws_jenkins_3.png?raw=true)
+  ![AWS_Cloud_Connection](assets/aws_jenkins_3.png)
  
   
 
